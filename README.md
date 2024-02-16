@@ -1,42 +1,70 @@
-# Test-guaitech (To-Do App)
-## Descripción
+# Getting Started with Create React App
 
-Aplicación web con el objetivo de tener registro de las tareas del día a día de una persona.
-Ejemplo de aplicación en su versión mínima: [Click-Aqui](https://www.youtube.com/watch?v=nsGIq6eaJy0)
-## Especificaciones
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Se debe contemplar el espacio adecuado para ingresar la descripción de la tarea
-2. Una tarea debe tener las opciones para eliminar, "Finalizar", o Activar nuevamente
-3. Las tareas deben permanecer visibles en todo momento, a menos que estas sean eliminadas. Tomar en cuenta que cuando la tarea esté "Finalizada", debe aparecer con un indicativo.
-4. Se pueden crear tantas tareas como el usuario necesite.
-5. Todas las tareas deben estar almacenadas en la base de datos, para ser consultadas en cualquier momento.
-6. Se puede usar cualquiera de las bases de datos proporcionadas (Mysql o MongoDB).
-7. El proyecto debe estar conformado por dos partes, Back-End y Front-End.
+## Available Scripts
 
-## Extras
+In the project directory, you can run:
 
-- Considerar la implementación de "Sub Tareas", es decir que cada una de las tareas especificadas, pueda tener un conjunto de subtareas asociadas.
-  De esta forma, la tarea padre Finalizará en automático cuando todas sus subtareas sean finalizadas.
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Recursos de apoyo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Docker compose con bases de datos:
-  1. `Mysql`
-       - Puerto: `3306`
-       - Usuario: `root`
-       - Password: `guest`
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  2. `MongoDB` 
-       - Puerto: `27017`
-       - Usuario: `guest`
-       - Password: `guest`
-   
-## Detalles de Entrega
+### `npm run build`
 
-- Hacer una rama a partir de main, con el nombre test/nombre-apellido
-- Hacer push del proyecto desarrollado hacia la rama correspondiente
-- Excluir directorios de librerias (Ej. node_modules)
-- Incluir dump o esquema de la base de datos si aplica
-- Se aceptan entregas hasta media hora antes de la finalización del meeting.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
