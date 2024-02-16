@@ -2,7 +2,10 @@ const { DataTypes } = require("sequelize");
 const db = require('../db/connection');
 
 const Tasks = db.define('Tasks', {
-    task: {
+    name: {
+        type: DataTypes.STRING
+    },
+    description: {
         type: DataTypes.STRING
     },
     isCompleted: {
