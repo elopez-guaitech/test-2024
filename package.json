@@ -1,0 +1,21 @@
+{
+  "name": "test-2024",
+  "version": "1.0.0",
+  "description": "Aplicación web con el objetivo de tener registro de las tareas del día a día de una persona.\r Ejemplo de aplicación en su versión mínima: [Click-Aqui](https://www.youtube.com/watch?v=nsGIq6eaJy0)\r ## Especificaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.37.0"
+  }
+}
